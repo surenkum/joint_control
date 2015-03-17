@@ -1,7 +1,10 @@
 # joint_control
 Purpose: To control kuka youbot arm and store the resulting encoder data while robot performs a trajectory
 Email: surenkum@buffalo.edu
+
 Website: www.buffalo.edu/~surenkum
+
+Start and end pose are in config/pose_data.yaml. The same file also storesfilepath to which the resulting encoder data will be written.
 
 Place the code insider src directory of your ROS workspace and then
 
