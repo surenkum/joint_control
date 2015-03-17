@@ -1,0 +1,7 @@
+<launch>
+  
+ <!-- Launch the current node-->
+ <node pkg="joint_control_kuka" type="joint_control_kuka" name="joint_control_kuka" output="screen">
+<rosparam file="$(find joint_control_kuka)/config/pose_data.yaml" command="load"/>
+  </node>
+</launch>

@@ -1,0 +1,4 @@
+# Give the poses that the robot must go through
+robot_pose_start: [2.9496, 0.02, -0.02,0.03, 0.12]
+robot_pose_end: [2.9496, 0.02, -0.02,0.03, 0.5]
+file_path: "/home/surenkum/work/thesis/code/ros_wrk/src/joint_control/data/"
